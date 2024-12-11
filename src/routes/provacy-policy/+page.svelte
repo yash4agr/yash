@@ -3,7 +3,7 @@
 </script>
 
 <svelte:head>
-	<title>Gianmarco Cavallo - Privacy policy</title>
+	<title>Yash Agrawal - Privacy policy</title>
 </svelte:head>
 
 <div class="container">
