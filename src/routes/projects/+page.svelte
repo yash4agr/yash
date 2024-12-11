@@ -10,8 +10,8 @@
 	<div class="projects">
 		<h1>Projects</h1>
 		<p class="note">
-			Note: most of my projects are under NDA so I am unable to share those projects. If there is
-			anything you would like to see further, please feel free to contact me.
+			Note: some of my project are private and there link will be made public in due time. If there is
+			anything you would like to know more about, please feel free to contact me.
 		</p>
 		{#each projects as project}
 			<div class="project">

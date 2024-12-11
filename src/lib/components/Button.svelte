@@ -1,5 +1,4 @@
 <script>
-	import { goto } from '$app/navigation';
 	import { Email } from '$lib/Constants';
 </script>
 
@@ -8,9 +7,9 @@
 	role="button"
 	tabindex="0"
 	on:keypress={() => {
-		goto(`mailto:${Email}`);
+		window.location = `mailto:${Email}`;
 	}}
-	on:click={() => goto(`mailto:${Email}`)}
+	on:click={() => window.location = `mailto:${Email}`}
 >
 	<slot />
 </div>

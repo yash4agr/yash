@@ -16,17 +16,29 @@
 		</div>
 		<div class="buttons">
 			{#each routes as route}
-				<a class={`button ${segment === route.href ? 'selected' : ''}`} href={route.href}
-					>{route.label}</a
-				>
+				{#if route.href === '/resume.pdf'}
+					<a class={`button`} href={route.href} target="_blank" rel="noopener noreferrer">
+						{route.label}
+					</a>
+				{:else}
+					<a class={`button ${segment === route.href ? 'selected' : ''}`} href={route.href}>
+						{route.label}
+					</a>
+				{/if}
 			{/each}
 		</div>
 	</div>
 	<div class="responsiveButtons buttons">
 		{#each routes as route}
-			<a class={`button ${segment === route.href ? 'selected' : ''}`} href={route.href}
-				>{route.label}</a
-			>
+			{#if route.href === '/resume.pdf'}
+				<a class={`button`} href={route.href} target="_blank" rel="noopener noreferrer">
+					{route.label}
+				</a>
+			{:else}
+				<a class={`button ${segment === route.href ? 'selected' : ''}`} href={route.href}>
+					{route.label}
+				</a>
+			{/if}
 		{/each}
 	</div>
 </div>

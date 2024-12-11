@@ -7,10 +7,10 @@
 </script>
 
 <svelte:head>
-	<title>Gianmarco Cavallo - Main page</title>
+	<title>Yash Agrawal - Main page</title>
 </svelte:head>
 <main>
-	<h1>Hi!✋ <br /> I'm Gianmarco a Front-End Developer 💻 based in Italy</h1>
+	<h1>Hi!✋ <br /> I'm Yash an AI enthusiast 🤖 & Back-End Developer 💻 based in India</h1>
 	<div class="icons">
 		<div
 			role="button"
@@ -28,7 +28,7 @@
 		</div>
 
 		<a
-			href="https://github.com/Ladvace"
+			href="https://github.com/yash4agr"
 			aria-label="GitHub"
 			target="_blank"
 			rel="noopener noreferrer"
@@ -38,7 +38,7 @@
 			</div>
 		</a>
 		<a
-			href="https://www.linkedin.com/in/ladvace/"
+			href="https://www.linkedin.com/in/yash4agr/"
 			aria-label="Linkedin"
 			target="_blank"
 			rel="noopener noreferrer"
@@ -47,8 +47,8 @@
 				<FaLinkedin />
 			</div>
 		</a>
-		<a
-			href="https://medium.com/@ladvace"
+		<!-- <a
+			href="https://medium.com/#"
 			aria-label="Medium"
 			target="_blank"
 			rel="noopener noreferrer"
@@ -56,7 +56,7 @@
 			<div class="icon">
 				<FaMedium />
 			</div>
-		</a>
+		</a> -->
 	</div>
 </main>
 

@@ -10,10 +10,11 @@
 	<main>
 		<h1>About</h1>
 		<p>
-			I'm a Software developer with over 2 years of front-end development experience, experienced in
-			both enterprise and open-source software development. I'm based in Italy and currently working
-			as a freelancer and coding in Node.js, React.js (and other web technologies) and Go(lang), but
-			I tend to learn and use the best technology and approach to best solve the problem I'm facing.
+			I’m currently pursuing my BS at Indian Institute of Technology (IIT) Madras,
+			where I’m majoring in Data Science and Application. I’m passionate about machine learning and deep learning,
+			with a special interest in Natural Language Processing (NLP) and Computer Vision (CV).
+			I’m always looking to explore new ideas and projects in these areas as
+			I tend to learn and use the best technology and approach to solve the problem I'm facing.
 		</p>
 		<h2>Skills</h2>
 		{#each Object.entries(skills) as [section, technologies]}

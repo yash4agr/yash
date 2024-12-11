@@ -121,8 +121,7 @@
 <slot />
 
 <footer>
-	Created by <a class="me" href="/about">Ladvace</a> ❤️ with
-	<span class="svelte">Svelte</span>
+	A fork of <a class="me" href="https://github.com/Ladvace/SvelteKit-Portfolio"> SvelteKit-Portfolio </a> template
 </footer>
 
 <style>
@@ -138,6 +137,7 @@
 
 	:global(#svelte) {
 		width: 100vw;
+		min-height: 100vh;
 		height: 100%;
 		max-width: 900px;
 
@@ -152,6 +152,7 @@
 		position: relative;
 		width: 100%;
 		height: 100%;
+		height: 100vh;
 		overflow: auto;
 		font-family: 'Fira Code', monospace;
 		background-color: #0a0908;
